@@ -10,13 +10,13 @@ class Route {
             'route' => '/',
             'controller' => 'indexController',
             'action' => 'index'
-        )
+        );
 
         $routes['sobre_nos'] = array(
             'route' => '/',
             'controller' => 'indexController',
             'action' => 'sobreNos'
-        )
+        );
     }
 
     public function getUrl() { 
