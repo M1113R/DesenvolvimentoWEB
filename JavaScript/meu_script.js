@@ -1,12 +1,9 @@
+//alert("Olá, seja bem vindo ao curso!");
 
-var texto = "Curso de JavaScript";
+/*
 
-var numeroInteiro = 7;
+    Selecionar o elemento no DOM 'nome'
+    e atualizar o valor do mesmo com uma string "OI"
 
-var numeroFlutuante = 12.02;
-
-var boolean = false;
-
-document.write('<h1> Titulo </h1>')
-
-console.log("7");
+*/
+document.getElementById('nome').value = "Oi";
